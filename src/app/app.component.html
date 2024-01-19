@@ -1,0 +1,16 @@
+<main>
+  <div class="container">
+    <img src="./assets/cover-1.png" alt="">
+    <div class="reproductor">
+      <div class="controls">
+        <button (click)="play()">Play</button>
+        <button (click)="pause()">Pause</button>
+        <button (click)="stop()">Stop</button>
+      </div>
+      <div class="progressbar-container" (click)="updateProgress($event)">
+        <div class="progressbar" [style.width]="getProgress()"></div>
+      </div>
+    </div>
+
+  </div>
+</main>

@@ -1,0 +1,51 @@
+main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    justify-items: center;
+}
+
+.container{
+    display: flex;
+    background-color: #121826a6;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.container img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+.reproductor {
+  width: 300px;
+  margin: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.progressbar-container {
+  height: 10px;
+  background-color: #ccc;
+  position: relative;
+  cursor: pointer; /* Cambio de cursor al pasar sobre la barra de progreso */
+}
+
+.progressbar {
+  height: 100%;
+  background-color: #4caf50;
+}
